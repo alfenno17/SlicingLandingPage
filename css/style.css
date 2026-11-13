@@ -1,4 +1,4 @@
-/* Global Variables & Reset */
+
 :root {
     --primary-color: #0d6efd;
     --secondary-color: #6c757d;
@@ -20,7 +20,7 @@ body {
     left: 0;
     width: 100vw;
     height: 100vh;
-    background-color: #ffffff !important; /* Latar belakang putih bersih penuh seperti di Figma */
+    background-color: #ffffff !important; 
     z-index: 9999;
     display: flex;
     justify-content: center;
@@ -39,9 +39,9 @@ body {
     width: 100vw !important;
     height: 100vh !important;
     max-width: none !important;
-    object-fit: cover; /* Memenuhi seluruh layar agar bingkai/kotak pinggir GIF terpotong rapi */
+    object-fit: cover; 
     mix-blend-mode: normal !important;
-    filter: contrast(1.04) brightness(1.03); /* Menghilangkan samar abu-abu pada background GIF agar menyatu dengan putih */
+    filter: contrast(1.04) brightness(1.03); 
 }
 
 .hero-section {
@@ -88,7 +88,6 @@ body {
     color: #FFFFFF !important;
 }
 
-
 .hero-desc {
     max-width: 480px;
     font-size: 1.05rem;
@@ -96,15 +95,15 @@ body {
 }
 
 .btn-gradient-orange {
-    background: #EF4C25; /* Menggunakan warna solid orange, menghapus gradient gelap */
+    background: #EF4C25; 
     border: none;
     transition: all 0.3s ease;
 }
 
 .btn-gradient-orange:hover {
-    background: #d63d18; /* Warna saat di-hover */
+    background: #d63d18; 
     color: #fff;
-    box-shadow: 0 4px 15px rgba(239, 76, 37, 0.4); /* Efek bayangan / glow */
+    box-shadow: 0 4px 15px rgba(239, 76, 37, 0.4); 
 }
 
 .hero-bottom-gradient {
@@ -117,7 +116,7 @@ body {
     z-index: 2;
     pointer-events: none;
 }
-/* Section 2: The Swaha Story Styling */
+
 .story-section {
     background-color: #F6F1EB;
     position: relative;
@@ -156,8 +155,6 @@ body {
     color: #999999;
     font-weight: 400; 
 }
-
-
 
 .image-collage {
     width: 100%;
@@ -240,7 +237,7 @@ body {
         width: 100%;
     }
 }
-/* Section 3: Our Type Of Rooms */
+
 .rooms-scroll-container {
     display: flex !important;
     flex-wrap: nowrap !important;
@@ -298,7 +295,6 @@ body {
     background: #133151;
 }
 
-/* Section 4: Dining Experiences Styling */
 .dining-section {
     background-color: #ffffff;
 }
@@ -357,7 +353,6 @@ body {
     color: #999999 !important; 
 }
 
-
 @media (max-width: 991px) {
     .dining-header-bg {
         padding-bottom: 110px;
@@ -394,17 +389,16 @@ body {
     }
 }
 
-/* Section 5: Wellness & Spa Styling */
 .wellness-section {
-    background-color: #FAF9F7 !important; /* Warna latar krem lembut sesuai gambar */
+    background-color: #FAF9F7 !important; 
 }
 
 .wellness-outer-card {
     width: 100%;
-    max-width: 295px; /* Dilebarkan agar lebih proporsional dan tidak terlalu kurus */
+    max-width: 295px; 
     background-color: #133252 !important;
     border-radius: 20px !important;
-    padding: 16px !important; /* Jarak pinggiran biru luar ke garis tipis dalam */
+    padding: 16px !important; 
     display: flex;
     overflow: hidden;
 }
@@ -412,8 +406,8 @@ body {
 .wellness-inner-card {
     width: 100%;
     height: 100%;
-    min-height: 335px; /* Tinggi disesuaikan agar membentuk persegi panjang vertikal yang pas */
-    padding: 32px 22px 36px 22px !important; /* Ruang atas & bawah seimbang */
+    min-height: 335px; 
+    padding: 32px 22px 36px 22px !important; 
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -444,7 +438,7 @@ body {
     font-weight: 700;
     color: #ffffff;
     line-height: 1.25;
-    max-width: 170px; /* Memaksa teks "Fitness Center" turun menjadi 2 baris agar sejajar */
+    max-width: 170px; 
     margin-bottom: 14px !important;
 }
 
@@ -486,8 +480,6 @@ body {
     line-height: 1.2;
 }
 
-
-
 @media (max-width: 991px) {
     .wellness-outer-card {
         max-width: 100%;
@@ -517,7 +509,6 @@ body {
     }
 }
 
-/* Section 6: Neighborhood Styling */
 .neighborhood-section {
     background-color: #FAF9F7 !important;
 }
@@ -528,13 +519,12 @@ body {
     object-fit: cover;
 }
 
-/* Efek zig-zag atas-bawah sesuai desain Figma */
 .neighborhood-img.img-top {
     margin-top: 0;
 }
 
 .neighborhood-img.img-bottom {
-    margin-top: 48px; /* Menggeser gambar kanan sedikit ke bawah */
+    margin-top: 48px; 
 }
 
 .badge-neighborhood {
@@ -555,7 +545,7 @@ body {
     font-weight: 700;
     color: #111111;
     line-height: 1.15;
-    white-space: nowrap; /* Memastikan judul "Discover the neighborhood" tetap 1 baris di desktop */
+    white-space: nowrap; 
 }
 
 .neighborhood-icon-circle {
@@ -576,7 +566,7 @@ body {
 .neighborhood-item-title {
     font-family: 'Calibri', sans-serif;
     font-size: 21px;
-    font-weight: 500; /* Tidak terlalu tebal agar sesuai dengan Figma */
+    font-weight: 500; 
     color: #111111;
 }
 
@@ -584,7 +574,7 @@ body {
     font-family: 'Calibri', sans-serif;
     font-size: 15.5px;
     line-height: 1.5;
-    color: #999999 !important; /* Warna abu-abu memudar */
+    color: #999999 !important; 
     max-width: 520px;
 }
 
@@ -614,11 +604,8 @@ body {
     }
 }
 
-
-
-/* Section 7: Special Offers Styling */
 .offer-section {
-    background-color: #ffffff !important; /* Latar putih bersih sesuai Figma */
+    background-color: #ffffff !important; 
 }
 
 .offer-banner {
@@ -686,7 +673,6 @@ body {
     color: white;
 }
 
-/* Footer Section Styling */
 .footer-section {
     background-color: #FAF9F7;
     box-shadow: 0px -10px 40px rgba(0, 0, 0, 0.04);
