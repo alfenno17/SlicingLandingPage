@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Swaha Signatures</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="loading-screen">
+        <img src="images/loadstart.gif" alt="Memuat..." class="loading-gif">
+    </div>
+    <section class="hero-section">
+        <div class="hero-overlay"></div>
+        
+        <header class="navbar">
+            <div class="nav-spacer"></div>
+            <div class="nav-brand">
+                <svg class="brand-icon" viewBox="0 0 24 24">
+                    <path d="M12 2L1 12h3v9h6v-6h4v6h6v-9h3L12 2zm0 2.84L19.5 12h-1.5v7h-2v-6H8v6H6v-7H4.5L12 4.84z"/>
+                </svg>
+                <span class="brand-name">Swaha Signatures</span>
+            </div>
+            <div class="nav-lang">
+                <span>English</span>
+                <svg class="dropdown-icon" viewBox="0 0 24 24"><path d="M7 10l5 5 5-5z"/></svg>
+            </div>
+        </header>
+
+                <div class="container hero-wrapper">
+            <div class="hero-content">
+                <span class="hero-subtitle">Your Very</span>
+                <h1 class="hero-title">HOME</h1>
+                <p class="hero-desc">
+                    To create a place that feels like home, but elevated. Come for the Bali vibes, stay for the feeling of home.
+                </p>
+                <div class="hero-action">
+                    <div class="hero-price">
+                        <span class="price-label">Start From</span>
+                        <div class="price-value">IDR 999,999+</div>
+                    </div>
+                    <button class="btn-primary">Book Your Stay</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="story-section container">
+        <article class="story-text">
+            <span class="badge">The Swaha Story</span>
+            <h2>Welcome to The<br>Swaha Signatures</h2>
+            <p>
+                In the heart of Berawa, The Swaha Signatures was created with one simple vision: a place that feels like home but elevated. A tropical lifestyle hotel where contemporary design meets personalized hospitality. "Swaha" symbolizes sincerity, offering, and positive energy behind every stay, where luxury means meaningful moments, not formality.
+            </p>
+            <p class="tagline">You're Home!</p>
+        </article>
+        <div class="story-images">
+            <div class="sticky-note">
+                "Good stays, Better Memories."
+            </div>
+            <img src="https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&w=600&q=80" alt="Resort Exterior" class="img-main">
+            <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=400&q=80" alt="Swaha Signatures Sign" class="img-sub">
+        </div>
+    </section>
+
+    <section class="rooms-section container">
+        <div class="section-header">
+            <div>
+                <span class="badge">Stay Your Way</span>
+                <h2>Our Type Of Rooms</h2>
+                <p>Find a space that feels like home, with thoughtful details made for your perfect stay.</p>
+            </div>
+            <div class="nav-arrows">
+                <button id="room-prev" class="arrow-btn" aria-label="Previous">
+                    <svg viewBox="0 0 24 24"><path d="M19 12H5m7-7l-7 7 7 7"></path></svg>
+                </button>
+                <button id="room-next" class="arrow-btn" aria-label="Next">
+                    <svg viewBox="0 0 24 24"><path d="M5 12h14m-7-7l7 7-7 7"></path></svg>
+                </button>
+            </div>
+        </div>
+
+        <div class="rooms-slider-viewport">
+            <div class="rooms-track" id="rooms-track">
+                <div class="room-card">
+                    <div class="card-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1591088398332-8a7791972843?auto=format&fit=crop&w=600&q=80" alt="Deluxe Room">
+                    </div>
+                    <div class="card-body">
+                        <h3>Deluxe Room</h3>
+                        <p>A contemporary tropical retreat with a private balcony, designed for comfort and effortless relaxation in the heart of Berawa.</p>
+                        <a href="#" class="contact-link">Contact Us</a>
+                    </div>
+                </div>
+
+                <div class="room-card">
+                    <div class="card-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1598928506311-c55ded91a20c?auto=format&fit=crop&w=600&q=80" alt="Grand Deluxe">
+                    </div>
+                    <div class="card-body">
+                        <h3>Grand Deluxe</h3>
+                        <p>Refined interiors with a private balcony and exclusive access to a spacious shared terrace, reserved for only four rooms.</p>
+                        <a href="#" class="contact-link">Contact Us</a>
+                    </div>
+                </div>
+
+                <div class="room-card">
+                    <div class="card-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=600&q=80" alt="Junior Suite">
+                    </div>
+                    <div class="card-body">
+                        <h3>Junior Suite</h3>
+                        <p>Experience elevated tropical living in the Junior Suite, featuring a spacious living area and a convenient pantry with a microwave.</p>
+                        <a href="#" class="contact-link">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="slider-indicators" id="slider-indicators">
+            <span class="indicator active"></span>
+            <span class="indicator"></span>
+            <span class="indicator"></span>
+            <span class="indicator"></span>
+        </div>
+    </section>
+
+    <section class="dining-section">
+        <div class="container">
+            <div class="dining-header">
+                <span class="badge badge-light">A Taste of Berawa</span>
+                <h2>Dining Experiences</h2>
+                <p>Enjoy delicious flavors and relaxed dining moments inspired by the spirit of Bali.</p>
+            </div>
+            <div class="dining-grid">
+                <div class="dining-card">
+                    <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80" alt="Restaurant">
+                    <h3>Restaurant</h3>
+                    <p>A contemporary all-day dining destination offering a delightful fusion of locally inspired and international flavours in a contemporary tropical setting. Start the day with a semi à la carte breakfast, where made-to-order signature dishes are complemented by a carefully curated buffet selection.</p>
+                </div>
+                <div class="dining-card">
+                    <img src="https://images.unsplash.com/photo-1514933651103-005eec06c04b?auto=format&fit=crop&w=800&q=80" alt="Crux">
+                    <h3>Crux</h3>
+                    <p>Inspired by the Southern Cross (Crux) constellation, a timeless guide for travelers, Crux is the social heart of The Swaha Signatures. Here, handcrafted cocktails, breathtaking sunsets, and meaningful connections come together to create unforgettable evenings above the vibrant energy of Berawa.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="wellness-section container">
+        <div class="wellness-text">
+            <span class="badge">Find Your Calm</span>
+            <h2>Wellness & Leisure</h2>
+            <p>From the fitness centre to the spa, the pool to the kids club, every space is shaped around a single idea.</p>
+        </div>
+        <div class="wellness-grid">
+            <div class="wellness-card">
+                <div class="icon-circle">
+                    <svg viewBox="0 0 24 24"><path d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z"></path></svg>
+                </div>
+                <h3>Rooftop Swimming Pool</h3>
+                <p>Escape to our rooftop swimming pool, where panoramic views, tropical breezes, and Bali's vibrant atmosphere await.</p>
+            </div>
+            <div class="wellness-card">
+                <div class="icon-circle">
+                    <svg viewBox="0 0 24 24"><path d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path></svg>
+                </div>
+                <h3>Fitness Center</h3>
+                <p>Move, Recharge, and Feel Your Best. Maintain your wellness routine in our contemporary Fitness Centre.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="location-section container">
+        <div class="location-images">
+            <img src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=400&q=80" alt="Pool" class="loc-img-1">
+            <img src="https://images.unsplash.com/photo-1502680390469-be75c86b636f?auto=format&fit=crop&w=400&q=80" alt="Surfing" class="loc-img-2">
+        </div>
+        <div class="location-text">
+            <span class="badge">Explore Your Way</span>
+            <h2>Discover the neighborhood</h2>
+            <ul class="loc-list">
+                <li>
+                    <div class="loc-icon-wrapper">
+                        <svg class="loc-icon" viewBox="0 0 24 24"><path d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>
+                    </div>
+                    <div>
+                        <h4>5 Minutes to Berawa Beach</h4>
+                        <p>Enjoy a relaxing walk, catch the sunset, or simply enjoy the ocean breeze at Berawa Beach.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="loc-icon-wrapper">
+                        <svg class="loc-icon" viewBox="0 0 24 24"><path d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path><path d="M9 10a1 1 0 011-1h4a1 1 0 011 1v4a1 1 0 01-1 1h-4a1 1 0 01-1-1v-4z"></path></svg>
+                    </div>
+                    <div>
+                        <h4>5 Minutes to Atlas & Finns Beach Club</h4>
+                        <p>Discover a vibrant beachfront destination with pools, dining, entertainment, and sunset moments.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="loc-icon-wrapper">
+                        <svg class="loc-icon" viewBox="0 0 24 24"><path d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"></path></svg>
+                    </div>
+                    <div>
+                        <h4>10 Minutes to Batu Belig Beach</h4>
+                        <p>Take a peaceful break by the beach, enjoy a beautiful sunset, and experience a more relaxed side of Bali.</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="promo-section container">
+        <div class="promo-card">
+            <div class="promo-content">
+                <h2>Special Opening Offer</h2>
+                <p>Discover our latest offers and enjoy a little more from your stay at Swaha Signatures.</p>
+                <div class="promo-action">
+                    <div class="promo-price">
+                        <span class="price-label">Start From</span>
+                        <span class="price-value">IDR 999,999+</span>
+                    </div>
+                    <button class="btn-primary">Book Your Stay</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-brand">
+                        <svg viewBox="0 0 24 24"><path d="M12 2L1 12h3v9h6v-6h4v6h6v-9h3L12 2zm0 2.84L19.5 12h-1.5v7h-2v-6H8v6H6v-7H4.5L12 4.84z"/></svg>
+                        <span>Swaha Signatures</span>
+                    </div>
+                    <p>Stay closer to what matters and experience Bali your way at Swaha Signatures.</p>
+                </div>
+                <div class="footer-col">
+                    <h5>Contact</h5>
+                    <p>info@theswahasignatures.com</p>
+                    <p>+62 822-2162-1654</p>
+                    <p>Jl Pantai Berawa No. 99 TSS, Tibubeneng Bali, 80361</p>
+                </div>
+                <div class="footer-col">
+                    <h5>Follow Us</h5>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24"><path d="M12 2C6.477 2 2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12c0-5.523-4.477-10-10-10z"/></svg></a>
+                        <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h5>Newsletter</h5>
+                    <p>Discover special offers, local stories, and more from your home in Bali.</p>
+                    <div class="newsletter-form">
+                        <input type="email" placeholder="Your Email">
+                        <button aria-label="Subscribe"><svg viewBox="0 0 24 24"><path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/></svg></button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>The Swaha Signatures &copy; 2026 All rights reserved.</p>
+                <p class="designer">Design by ALAMAYA</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
