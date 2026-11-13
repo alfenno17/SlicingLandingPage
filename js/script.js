@@ -8,5 +8,5 @@ document.addEventListener("DOMContentLoaded", function () {
                 loader.style.display = "none";
             }, 500);
         }
-    }, 14500);
+    }, 12000);
 });

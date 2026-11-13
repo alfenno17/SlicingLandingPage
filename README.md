@@ -22,7 +22,7 @@ belajar slicing landing page/
 │   └── style.css     # Kustom styling, variabel warna, dan penataan presisi Figma
 ├── js/
 │   └── script.js     # Logika transisi layar loading GIF
-└── images/
+└── assets/
     └── loadstart.gif # Animasi layar loading awal
 ```
 
